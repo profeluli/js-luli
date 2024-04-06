@@ -1,3 +1,9 @@
+:root{
+--cor-section:  #bd147c;
+} 
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +22,7 @@ h1{
 section{
     width: 80%;
     font-size: 16px;
-    background: #bd147c;
+    background: var(--cor-section);
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
