@@ -1,63 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
-        <meta charset="UTF-8">
-        <title>Olá mundo!!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olá Mundo!</title>
+<link rel="stylesheet" href="style.css">
     </head>
-    <body>
-<!--testando comentário-->
+<body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <a href="https://moodle.utfpr.edu.br/login/index.php" target="_blank">Início</a> <!--criei um link que quando clicar no início abre uma nova aba vai pro site do moodle-->
+                    <a href="https://www.utfpr.edu.br/alunos/moodle" target="_blank">Início</a>
                 </li>
-                <li>
-                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a> <!--criei um link que quando eu clicar no Email abre uma nova aba e vai pro gmail-->
-                    </li>
+                <li>Voltar</li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Título do cabeçalho</h1>
-        <h2>Subtítulo do cabeçalho</h2>
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quas necessitatibus, aliquam nihil consequatur perspiciatis explicabo repudiandae modi, odio et ratione blanditiis perferendis. Voluptate impedit expedita eaque velit earum quibusdam.
-            </p>
-            <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/FF-SEO-text-to-image-marquee-mobile-2x?$pjpeg$&jpegSize=100&wid=600">
-            <a href="https://www.posaworld.org/" target="_blank">
-                pole
-            </a>
-            <ol>
-                <li> item 1 </li>
-                <li> item 2 </li>
-            </ol>
+        <!-- comentário -->
+        <h1>Título</h1>
+        <h2 class="subtitulo">Subtítulo</h2>
+        <h2 class="subtitulo">Subtítulo 2</h2>
+        <h3>Professores,</h3>
+
+        <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, alias laboriosam! Asperiores fugit a, tempore corrupti tenetur quam itaque nihil quibusdam eum amet quisquam aliquam doloremque voluptate dicta. Similique, porro?</p>
+        
+        <img src="data:image/jpeg;base64,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" alt="descrição da imagem">
+        <a href="https://open.spotify.com/intl-pt" target="_blank">
+        conteúdo;
+        </a>
+        <ol>
+        <li>Item</li> 
+        <li>Item</li> 
+        </ol>
         <ul>
-            <li> oioioi</li>
+            <li>Item</li>
+            <li>Item</li>
         </ul>
-        <!--divisão de conteúdo com o mesmo valor semântico-->
+
+        <!-- divisão de conteúdo com o mesmo valor semântico -->
         <section>
-            <h1>Título</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique tempora et aspernatur error omnis velit, cum beatae ullam, aut cupiditate magnam voluptatum vero fuga incidunt quis autem nesciunt harum!</p>
-            </section>
-        <!--div divisão de conteúdo com o mesmo estilo-->
-        <div></div>
+            <h1 id="titulo2">Título</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit commodi saepe dignissimos id, velit doloremque quia? Voluptatibus, modi earum! Accusantium enim excepturi labore possimus libero dolore atque architecto eligendi.</p>
+        </section>
+
+        <!-- divisão de conteúdo com o mesmo estilo, sem precisar de valor semântico -->
+        <div>
+
+        </div>
         <form>
             <input type="text" placeholder="Digite o seu nome" required>
-            <input type="number" placeholder="Selecione n° de cachorros">
+            <input type="number">
             <input type="email">
             <input type="checkbox" checked>
             <label for="sim">Sim</label>
             <input type="radio" id="sim" name="radio">
             <label for="nao">Não</label>
-            <input type="radio" id="não" name="radio">
-            <label for="talvez">Talvez</label>
-            <input type="radio" id="talvez" name="radio">
+            <input type="radio" name="radio" id="nao">
             <button type="submit">Enviar</button>
             <button type="reset">Resetar</button>
         </form>
     </main>
-<footer><!--rodapé-->
-    luanapvidaleal@gmail.com
-</footer>
+    <!-- rodapé -->
+    <footer>
+        Créditos
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
