@@ -28,5 +28,18 @@ let condicaoFalsa = false;
 console.log(condicao, condicaoFalsa);
 */
 let soma;
-soma = 10+3;
-console.log(`O resultado da soma é ${soma}soma`);
+let diferenca;
+let produto;
+let divisao;
+let resto;
+soma = 10 + 3;
+diferenca = 10 - 3;
+produto = 10 * 3;
+divisao = 10 / 3;
+resto = 10 % 3;
+console.log(`O resultado da soma é ${soma}`);
+console.log(`O resultado da diferença é ${diferenca}`);
+console.log(`O resultado do produto é ${produto}`);
+console.log(`O resultado da divisão é ${divisao}`);
+console.log(`O resultado do resto é ${resto}`);
+
