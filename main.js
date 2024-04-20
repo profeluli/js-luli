@@ -95,7 +95,7 @@ console.log(array);
 /*for(let i = 0; i < 10; i = i + 1){
     console.log(i);
 }*/
-for (let i = 5; i <=0 ; i = i--){
+for (let i = 5; i >=0; i = i - 1){
     console.log(i);
 }
 
