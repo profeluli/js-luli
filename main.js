@@ -1,3 +1,4 @@
+/*
 //Dados primitivos 
 
 alert(1);
@@ -25,3 +26,7 @@ console.log(`Seu nome é ${nomeUsuario}, sua idade é ${idade} e seu peso é ${p
 let condicao = true;
 let condicaoFalsa = false;
 console.log(condicao, condicaoFalsa);
+*/
+let soma;
+soma = 10+3;
+console.log(`O resultado da soma é ${soma}soma`);
