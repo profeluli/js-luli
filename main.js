@@ -77,3 +77,5 @@ let numero2 = 34;
 if (numero2 > 20 || numero2 <30){
     console.log(numero2);
 }
+let valor = true;
+console.log(!valor);
