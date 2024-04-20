@@ -64,3 +64,13 @@ console.log("O usuário é maior de idade")
 }else{
 console.log("Você não pode acessar esse site!")
 }
+
+//Operadores lógicos
+if (idade < 12){
+    console.log("criança")
+
+}else if(idade >= 12 && idade <= 40){
+console.log("Você é jovem!")
+}else (idade > 40){
+console.log("Adulto")
+}
