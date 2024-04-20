@@ -11,4 +11,5 @@ console.log(`Seu nome é ${(nomeUsuario)}`);
 
 //números
 let idade = 30;
+idade = prompt("Digite sua idade: ");
 console.log(`Seu nome é ${nomeUsuario} e sua idade é ${idade}`);
