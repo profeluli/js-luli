@@ -79,3 +79,7 @@ if (numero2 > 20 || numero2 <30){
 }
 let valor = true;
 console.log(!valor);
+
+//Números e Array
+let variavel = "10";
+console.log(Number(variavel));
