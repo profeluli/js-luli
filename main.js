@@ -55,3 +55,12 @@ if ((numero % 2) == 0){
 }else{
     console.log("O número é ímpar!")
 }
+
+//Operadores de comparação
+let idade;
+idade = prompt("Digite sua idade: ");
+if (idade >= 18){
+console.log("O usuário é maior de idade")
+}else{
+console.log("Você não pode acessar esse site!")
+}
