@@ -81,5 +81,8 @@ let valor = true;
 console.log(!valor);
 
 //Números e Array
-let variavel = "texto";
+let variavel = "50";
 console.log(Number(variavel));
+
+let array = [1, 10, 12];
+console.log(array[0, 1]);
