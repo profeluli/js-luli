@@ -92,15 +92,23 @@ console.log(array[2]);
 console.log(array);
 
 //Estruturas de Repetição
+//incremento
 /*for(let i = 0; i < 10; i = i + 1){
     console.log(i);
-}*/
+}
+//decremento
 for (let i = 5; i >=0; i = i - 1){
     console.log(i);
-}
+}*/
 
 let i = 0;
 while (i < 10){
     console.log(i);
     i++
+}
+
+function soma(numero1, numero2){
+    let somaNumeros;
+    somaNumeros = numero1 + numero2;
+    return somaNumeros;
 }
