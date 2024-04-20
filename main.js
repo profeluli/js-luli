@@ -13,3 +13,8 @@ console.log(`Seu nome é ${(nomeUsuario)}`);
 let idade = 30;
 idade = prompt("Digite sua idade: ");
 console.log(`Seu nome é ${nomeUsuario} e sua idade é ${idade}`);
+
+//número float
+let peso = 58.5;
+peso = prompt("Digite o seu peso: ");
+console.log(`Seu nome é ${nomeUsuario}, sua idade é ${idade} e seu peso é ${peso}`);
