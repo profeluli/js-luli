@@ -70,6 +70,10 @@ if (idade < 12){
     console.log("criança");
 }else if(idade >= 12 && idade <= 40){
 console.log("Você é jovem!");
-}else{ (idade > 40)
+}else if (idade > 40){ 
 console.log("Adulto");
+}
+let numero2 = 34;
+if (numero2 > 20 || numero2 <30){
+    console.log(numero2)
 }
