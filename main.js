@@ -93,8 +93,8 @@ console.log(array);
 
 //Estruturas de Repetição
 //for(let i = 0; i < 10; i = i + 1){
-    console.log(i);
+    //console.log(i);
 //}
-for (let i = 3; i >=0 ; i = i--){
+for (let i = 3; i <=0 ; i = i--){
     console.log(i);
 }
