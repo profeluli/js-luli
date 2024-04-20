@@ -11,4 +11,4 @@ console.log(`Seu nome é ${(nomeUsuario)}`);
 
 //números
 let idade = 30;
-console.log = (`Seu nome é ${nomeUsuario} e sua idade é ${idade}`);
+console.log(`Seu nome é ${nomeUsuario} e sua idade é ${idade}`);
