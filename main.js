@@ -85,4 +85,6 @@ let variavel = "50";
 console.log(Number(variavel));
 
 let array = [1, 10, 12];
-console.log(array[0, 1]);
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
