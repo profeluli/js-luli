@@ -90,3 +90,8 @@ console.log(array[0]);
 console.log(array[1]);
 console.log(array[2]);
 console.log(array);
+
+//Estruturas de Repetição
+for(let i = 0; i < 5; i = i + 3){
+    console.log(i);
+}
