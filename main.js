@@ -71,5 +71,5 @@ if (idade < 12){
 }else if(idade >= 12 && idade <= 40){
 console.log("Você é jovem!");
 }else{ (idade > 40)
-console.log("Adulto")
+console.log("Adulto");
 }
