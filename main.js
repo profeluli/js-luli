@@ -27,6 +27,9 @@ let condicao = true;
 let condicaoFalsa = false;
 console.log(condicao, condicaoFalsa);
 */
+
+//Operadores aritméticos
+
 let soma;
 let diferenca;
 let produto;
@@ -43,3 +46,11 @@ console.log(`O resultado do produto é ${produto}`);
 console.log(`O resultado da divisão é ${divisao}`);
 console.log(`O resultado do resto é ${resto}`);
 
+//Estruturas condicionais
+
+let numero = 13;
+if ((numero % 2) == 0){
+    console.log("O número é par!")
+}else{
+    console.log("O número é ímpar!")
+}
