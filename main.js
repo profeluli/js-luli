@@ -107,7 +107,7 @@ while (i < 10){
     i++
 }
 
-function soma(numero1, numero3){
+function soma1(numero1, numero3){
     let somaNumeros;
     somaNumeros = numero1 + numero3;
     return somaNumeros;
