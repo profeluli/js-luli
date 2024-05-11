@@ -131,7 +131,7 @@ console.log(dataInicial.getHours());
 console.log(dataInicial.getMonth());
 
 
-// Para criar um contador:
+// Para criar um relógio que atualize linha a linha:
 function atualizaRelogio() {
     const dataAtual = new Date();
     const horas = dataAtual.getHours();
@@ -146,3 +146,7 @@ atualizaRelogio();
 const relogio = setInterval(function(){
     atualizaRelogio();
 }, 1000);
+
+setTimeout(function(){
+    clearInterval(relogio);
+}, 10000);
