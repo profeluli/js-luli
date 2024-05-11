@@ -122,5 +122,5 @@ console.log(`Número aleatório: ${numeroAleatorio}`);
 
 let numeroPiso;
 
-numeroPiso = Math.floor(3.15);
+numeroPiso = Math.floor(4.87);
 console.log(`Número piso: ${numeroPiso}`);
