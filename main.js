@@ -118,4 +118,4 @@ let numeroAleatorio;
 
 numeroAleatorio = Math.random() * 20;
 
-console.log(`Número aleatório: $(numeroAleatorio)`);
+console.log(numeroAleatorio); 
