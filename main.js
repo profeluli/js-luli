@@ -132,12 +132,17 @@ console.log(dataInicial.getMonth());
 
 
 // Para criar um contador:
-
-const relogio = setInterval(function(){
+function atualizaRelogio() {
     const dataAtual = new Date();
     const horas = dataAtual.getHours();
     const minutos = dataAtual.getMinutes();
     const segundos = dataAtual.getSeconds();
     console.log(`${horas}:${minutos}:${segundos}`);
     
+}
+
+atualizaRelogio();
+
+const relogio = setInterval(function(){
+    atualizaRelogio();
 }, 1000);
