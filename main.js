@@ -124,3 +124,6 @@ let numeroPiso;
 
 numeroPiso = Math.floor(4.87);
 console.log(`Número piso: ${numeroPiso}`);
+
+const dataInicial = new Date(0);
+console.log(dataInicial);
