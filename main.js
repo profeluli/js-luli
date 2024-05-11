@@ -125,7 +125,16 @@ let numeroPiso;
 numeroPiso = Math.floor(4.87);
 console.log(`Número piso: ${numeroPiso}`);
 
-const dataInicial = new Date();
+const dataInicial = new Date(); //sem parâmetro, retorna a data atual.
 console.log(dataInicial);
 console.log(dataInicial.getHours());
 console.log(dataInicial.getMonth());
+
+
+// Para criar um contador:
+
+const dataAtual = new Date();
+const horas = dataAtual.getHours();
+const minutos = dataAtual.getMinutes();
+const segundos = dataAtual.getSeconds();
+console.log(`${horas}: ${minutos}:${segundos}`);
