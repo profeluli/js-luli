@@ -134,9 +134,13 @@ console.log(dataInicial.getMonth());
 // Para criar um relógio que atualize linha a linha:
 function atualizaRelogio() {
     const dataAtual = new Date();
-    const horas = dataAtual.getHours();
-    const minutos = dataAtual.getMinutes();
-    const segundos = dataAtual.getSeconds();
+    let horas = dataAtual.getHours();
+    horas = adicionaZero(horas);
+    let minutos = dataAtual.getMinutes();
+    minutos = adicionaZero(minutos);
+    let segundos = dataAtual.getSeconds();
+    segundos = adicionaZero(segundos);
+    
     console.log(`${horas}:${minutos}:${segundos}`);
     
 }
