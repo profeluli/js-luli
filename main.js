@@ -28,7 +28,7 @@ let condicaoFalsa = false;
 console.log(condicao, condicaoFalsa);
 */
 
-//Operadores aritméticos
+/*Operadores aritméticos
 
 let soma;
 let diferenca;
@@ -101,7 +101,7 @@ for (let i = 5; i >=0; i = i - 1){
     console.log(i);
 }*/
 
-let i = 0;
+/*let i = 0;
 while (i < 10){
     console.log(i);
     i++
@@ -111,4 +111,9 @@ function soma1(numero1, numero3){
     //let somaNumeros;
     //somaNumeros = numero1 + numero3;
     return numero1 + numero3;
-}
+}*/
+
+// Aula 11/05
+let numeroAleatorio;
+numeroAleatorio = Math.random() * 20 ;
+console.log(`Número aleatório: $(numeroAleatorio)`);
