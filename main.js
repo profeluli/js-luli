@@ -116,6 +116,6 @@ function soma1(numero1, numero3){
 // Aula 11/05
 let numeroAleatorio;
 
-numeroAleatorio = Math.random() * 20;
+numeroAleatorio = Math.random();
 
 console.log(`Número aleatório: ${numeroAleatorio}`); 
