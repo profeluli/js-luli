@@ -125,7 +125,7 @@ let numeroPiso;
 numeroPiso = Math.floor(4.87);
 console.log(`Número piso: ${numeroPiso}`);
 
-const dataInicial = new Date(0);
+const dataInicial = new Date();
 console.log(dataInicial);
 console.log(dataInicial.getHours());
 console.log(dataInicial.getMonth());
