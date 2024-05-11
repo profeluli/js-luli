@@ -150,3 +150,13 @@ const relogio = setInterval(function(){
 setTimeout(function(){
     clearInterval(relogio);
 }, 10000);
+
+//customizando com o zero à esquerda
+function adicionaZero(numero){
+    if(numero < 10){
+        numero = "0"+numero;
+        }
+        return numero;
+}
+
+adicionaZero();
